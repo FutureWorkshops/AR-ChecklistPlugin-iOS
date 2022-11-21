@@ -1,0 +1,35 @@
+{
+  "servers" : [
+
+  ],
+  "id" : 0,
+  "navigation" : {
+    "style" : "list",
+    "list" : [
+      {
+        "step" : "e63c7709-1bbf-4df4-84b3-1a41a33a5959"
+      }
+    ]
+  },
+  "systemTintColor" : "blue",
+  "name" : "Checklist",
+  "steps" : [
+    {
+      "id" : "e63c7709-1bbf-4df4-84b3-1a41a33a5959",
+      "type" : "io.app-rail.checklist.checklist",
+      "properties" : {
+        "title" : "ChecklistStep",
+        "items" : [
+            {
+                "id": "1",
+                "text": "Milk"
+            },
+            {
+                "id": "2",
+                "text": "Cheese"
+            },
+        ]
+      }
+    }
+  ]
+}
