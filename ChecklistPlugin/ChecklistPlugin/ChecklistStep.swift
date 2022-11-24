@@ -79,29 +79,33 @@ struct ChecklistStepContentView: View {
     
     var body: some View {
         List(content) { item in
-            ChecklistStepListItemView(item: item)
+            ChecklistStepListItemView(step: step, item: item)
         }
     }
 }
 
 struct ChecklistStepListItemView: View {
+    var step: ChecklistStep
     var item: ChecklistItem
     @AppStorage var checked: Bool
     
-    init(item: ChecklistItem) {
+    init(step: ChecklistStep, item: ChecklistItem) {
+        self.step = step
         self.item = item
         self._checked = AppStorage(wrappedValue: false, item.id)
     }
     
     var body: some View {
-        Button( action: {
+        HStack() {
+            Image(systemName: checked ? "checkmark.circle.fill" : "circle")
+                .foregroundColor(Color(step.theme.primaryTintColor))
+            Text(item.text)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
             checked = !checked
-        }) {
-            HStack() {
-                Image(systemName: checked ? "checkmark.circle.fill" : "circle")
-                Text(item.text)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-            }
         }
     }
 }
