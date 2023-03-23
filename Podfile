@@ -9,7 +9,7 @@ use_frameworks!
 
 target 'Checklist' do
   project 'Checklist/Checklist.xcodeproj'
-  pod 'MobileWorkflow', '~> 2.1.6'
+  pod 'MobileWorkflow', '~> 2.1.13'
   pod 'ChecklistPlugin', path: 'ChecklistPlugin.podspec'
 
   target 'ChecklistTests' do

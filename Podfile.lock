@@ -1,15 +1,15 @@
 PODS:
-  - ChecklistPlugin (1.0.0):
-    - ChecklistPlugin/Core (= 1.0.0)
-  - ChecklistPlugin/Core (1.0.0):
+  - ChecklistPlugin (1.0.1):
+    - ChecklistPlugin/Core (= 1.0.1)
+  - ChecklistPlugin/Core (1.0.1):
     - MobileWorkflow (~> 2.1.6)
-  - MobileWorkflow (2.1.6):
-    - MobileWorkflow/Core (= 2.1.6)
-  - MobileWorkflow/Core (2.1.6)
+  - MobileWorkflow (2.1.13):
+    - MobileWorkflow/Core (= 2.1.13)
+  - MobileWorkflow/Core (2.1.13)
 
 DEPENDENCIES:
   - ChecklistPlugin (from `ChecklistPlugin.podspec`)
-  - MobileWorkflow (~> 2.1.6)
+  - MobileWorkflow (~> 2.1.13)
 
 SPEC REPOS:
   https://github.com/FutureWorkshops/MWPodspecs.git:
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: ChecklistPlugin.podspec
 
 SPEC CHECKSUMS:
-  ChecklistPlugin: 8110b2b1390604461f1bab3748e304b41d2262ac
-  MobileWorkflow: 68f65384ec75ac20ab9f94cb8b43156f763555a3
+  ChecklistPlugin: 0ef3719c0bcb7339b162f08b987076154a726f5c
+  MobileWorkflow: daefa95c609644897d5dc4ab3ee01a40cc6f55c3
 
-PODFILE CHECKSUM: 352369d8e73144999a5c8de687dbd46e1729c586
+PODFILE CHECKSUM: 7200a6af60cbf5905c1ea3760b8933bea290658d
 
 COCOAPODS: 1.11.3
