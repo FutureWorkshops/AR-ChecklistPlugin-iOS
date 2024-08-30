@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: ChecklistPlugin.podspec
 
 SPEC CHECKSUMS:
-  ChecklistPlugin: 0ef3719c0bcb7339b162f08b987076154a726f5c
+  ChecklistPlugin: 70b8bb4e3a272d99dd770b13cc2e53332d05f76d
   MobileWorkflow: daefa95c609644897d5dc4ab3ee01a40cc6f55c3
 
-PODFILE CHECKSUM: 7200a6af60cbf5905c1ea3760b8933bea290658d
+PODFILE CHECKSUM: 866eeacc63ff5b05bdf3126a9a84fbb17abe48c7
 
 COCOAPODS: 1.15.2
